@@ -123,7 +123,7 @@ def badAppleGameOfLife():
     #golClip = VideoClip(renderFrameGlider, duration=60)
 
     ## Render epic bideo
-    golClip.write_videofile('gpu_gol/output_vids/vid.avi', fps=badAppleClip.fps, bitrate='100000k', codec='mpeg4')
+    golClip.write_videofile('vid.avi', fps=badAppleClip.fps, bitrate='100000k', codec='mpeg4')
 
 
 
